@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thomas Harren's Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/theme.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="text-center snow">
+        <h1>Hello, world!</h1>
+        <h2>And welcome to Thomas Harren's GitHub Homepage!</h2>
+
+      <div>
+        <a class="btn btn-large uno links" 
+          href="https://github.com/harre096">Github</a>
+        <a class="btn btn-large dos links" 
+          href="https://www.linkedin.com/in/thomasharren">LinkedIn</a>
+      </div>
+    </div>
+
+
+
+<!-- <div id="bg">
+  <img src="img/Minnesota.jpg" alt="">
+</div> -->
+
+   <!-- <div class="jumbotron tan"> 
+      <div class="container">
+        <h1>Hello, world!</h1>
+        <h2>Welcome to Thomas Harren's Homepage!</h2>
+        <a class="btn btn-large btn-primary" href="https://github.com/harre096">Github</a>
+        <a class="btn btn-large btn-primary" href="https://www.linkedin.com/in/thomasharren">LinkedIn</a>
+      </div>
+    </div> -->
+      
+
+    <div class="black"> 
+      <div class="pad container">
+        <div class="col-md-8">
+          <h1>Who am I?</h1>
+          <h3>Hi! My name is Thomas Harren. 
+            So far, I have been able to identify myself as a dairy farmer, a beekeeper, a student, a tinkerer, 
+            a musician, a software developer, a leader, a family member, and a friend. Looking forward, I plan to grow futher as I continue 
+            to pursue my career in the technology field.</h3>
+          <br>
+        </div>
+        <div class="col-md-4 text-center">
+          <img id="thPhoto" src="img/Thomas_Harren.jpg" alt="Thomas Harren Photo">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="lblue"> 
+      <div class="pad container">
+        <div class="col-md-8">
+          <h1>Who am I?</h1>
+          <h3>Hi! My name is Thomas Harren. 
+            So far, I have been able to identify myself as a dairy farmer, a beekeeper, a student, a tinkerer, 
+            a musician, a software developer, a leader, a family member, and a friend. Looking forward, I plan to grow futher as I continue 
+            to pursue my career in the technology field.</h3>
+          <br>
+        </div>
+        <div class="col-md-4 text-center">
+          <img id="thPhoto" src="img/Thomas_Harren.jpg" alt="Thomas Harren Photo">
+        </div>
+      </div>
+    </div>
+
+    <div class="gold"> 
+      <div class="pad container">
+<div class="blackDrop pad col-md-3 text-center">
+          <img src="img/morris.png" alt="Thomas Harren Photo">
+</div>
+        <div class="col-md-8 col-md-offset-1">
+          <h3>UMM</h3>
+          <h1>Who am I?</h1>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="blue"> 
+      <div class="pad container">
+        <h1>Hello, world!</h1>
+        <h2>And welcome to Thomas Harren's Homepage!</h2>
+      </div>
+    </div>
+    <div class="tan"> 
+      <div class="pad container">
+        <h1>Hello, world!</h1>
+        <h2>And welcome to Thomas Harren's Homepage!</h2>
+      </div>
+    </div>
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
+

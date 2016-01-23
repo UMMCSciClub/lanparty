@@ -1,0 +1,65 @@
+/*https://color.adobe.com/create/color-wheel/?base=2&rule=Compound&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.8,0.7290796528879292,0.21934313120451315,0.6,0.5834511802085454,0.4645073484033848,1,0.7973897735765492,0.3741789140056414,0.6241789140056414,0.8626878619452539,1,0.21934313120451315,0.7406523298106609,0.8&swatchOrder=0,1,2,3,4
+*/
+
+body {
+	background-color:#9FDCFF;
+}
+.snow {
+  min-height:50em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  padding-bottom: 50%;
+  background: url(../img/Minnesota.jpg);
+  background-size: auto;
+}
+
+.snow h1{
+  font-size:8em;
+}
+
+.snow .uno {
+  border-radius: 20px 5px 5px 5px;
+}
+.snow .dos {
+  border-radius: 5px 20px 5px 5px;
+}
+.snow .links{
+  outline: 2px solid;
+  outline-color: #9FDCFF;
+  width:15em;
+  font-size:2em;
+  background-color:red;
+}
+
+.blackDrop{
+  background-color:black;
+  border-radius:50%;
+}
+
+
+#thPhoto {
+  max-height:20em;
+  border-radius: 2em;
+}
+
+.pad{
+  padding: 5em 0em;
+}
+
+.black {
+	background-color: black;
+  color: #38BDCC;
+}
+.tan {
+	background-color: #999576;
+}
+.blue {
+  background-color: #38BDCC;
+}
+.gold {
+  background-color: #CCBA38;
+}
+.lblue {
+  background-color: #9FDCFF;
+}

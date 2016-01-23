@@ -1,0 +1,47 @@
+/*Colors: https://color.adobe.com/create/color-wheel/?base=2&rule=Compound&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.8,0.7290796528879292,0.21934313120451315,0.6,0.5834511802085454,0.4645073484033848,1,0.7973897735765492,0.3741789140056414,0.6241789140056414,0.8626878619452539,1,0.21934313120451315,0.7406523298106609,0.8&swatchOrder=0,1,2,3,4
+*/
+/*General*/
+body {
+	background-color:black;
+   font-family: 'Orbitron', sans-serif;
+}
+
+.pad{
+  padding: 5em 0em;
+}
+
+#title {
+  font-size: 800%
+}
+
+
+/*Color blocks*/
+.blackWithGreen {
+	background-color: black;
+  color: #00ff00;
+}
+.blackWithBlue {
+	background-color: black;
+  color: #38BDCC;
+}
+.blackWithYellow {
+	background-color: black;
+  color: #CCBA38;
+}
+.grey {
+	background-color: #222222;
+   color: #24c0eb;
+}
+.tan {
+	background-color: #999576;
+}
+.mint {
+  background-color: #78F59C;
+	color: white;
+}
+.orange {
+  background-color: #C1641B;
+}
+.lblue {
+  background-color: #9FDCFF;
+}
