@@ -12,8 +12,23 @@ body {
 	font-size: 800%
 }
 
+.events{
+	font-size: 150%;
+	line-height: 2.2em;
+}
+.bulletList{
+	font-size: 1.5em;
+	pading:.9em;
+}
+
 .greenComputer{
 	width: 60%;
+}
+
+.blackWithYellow hr{
+	border-color: #CCBA38;
+	width: 70%;
+	float: left;
 }
 
 
@@ -29,6 +44,7 @@ body {
 .blackWithYellow {
 	background-color: black;
 	color: #CCBA38;
+	border-color: #CCBA38;
 }
 .grey {
 	background-color: #222222;
