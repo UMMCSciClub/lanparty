@@ -3,45 +3,49 @@
 /*General*/
 body {
 	background-color:black;
-   font-family: 'Orbitron', sans-serif;
+	font-family: 'Orbitron', sans-serif;
 }
 
 .pad{
-  padding: 5em 0em;
+	padding: 5em 0em;
 }
 
 #title {
-  font-size: 800%
+	font-size: 800%
+}
+
+.greenComputer{
+	width: 60%;
 }
 
 
 /*Color blocks*/
 .blackWithGreen {
 	background-color: black;
-  color: #00ff00;
+	color: #00ff00;
 }
 .blackWithBlue {
 	background-color: black;
-  color: #38BDCC;
+	color: #38BDCC;
 }
 .blackWithYellow {
 	background-color: black;
-  color: #CCBA38;
+	color: #CCBA38;
 }
 .grey {
 	background-color: #222222;
-   color: #24c0eb;
+	color: #24c0eb;
 }
 .tan {
 	background-color: #999576;
 }
 .mint {
-  background-color: #78F59C;
+	background-color: #78F59C;
 	color: white;
 }
 .orange {
-  background-color: #C1641B;
+	background-color: #C1641B;
 }
 .lblue {
-  background-color: #9FDCFF;
+	background-color: #9FDCFF;
 }
