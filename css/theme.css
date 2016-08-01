@@ -56,6 +56,11 @@ body {
 	background-color: #222222;
 	color: #24c0eb;
 }
+
+.grey ls li {
+	font-size: 2em;
+}
+
 .tan {
 	background-color: #999576;
 }
