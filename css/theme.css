@@ -7,6 +7,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Orbitron', sans-serif;
 }
 
+a {
+	word-wrap: break-word;
+}
+
 .vertical-align {
 	display: flex;
 	align-items: center;
@@ -17,6 +21,10 @@ h1,h2,h3,h4,h5,h6 {
 	.row.vertical-align {
 		display: block; /* turn off the flexible box layout */
 	}
+}
+
+.greenComputer {
+	max-width: 80%;
 }
 
 
