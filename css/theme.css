@@ -1,6 +1,5 @@
 /*General*/
 body {
-	background-color:black;
 	font-family: -apple-system-font, "Trebuchet MS", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -8,12 +7,29 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Orbitron', sans-serif;
 }
 
+.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+/* Medium devices (tablets, 992px and down) */
+@media (max-width: 992px) {
+	.row.vertical-align {
+		display: block; /* turn off the flexible box layout */
+	}
+}
+
+
+.inherit-color, .inherit-color:hover, .inherit-color:focus, .inherit-color:active, .inherit-color:visited {
+	color: inherit;
+}
+
 .pad{
-	padding: 5em 0em;
+	padding: 5em 0;
 }
 
 .dashed{
-	padding-top: .6em;
+	padding: .6em;
 	border-style: dashed;
 	border-radius: .2em;
 }
@@ -25,20 +41,11 @@ h1,h2,h3,h4,h5,h6 {
 .events{
 	font-size: 150%;
 	line-height: 2.2em;
+	margin-bottom: 2.2em;
 }
 .bulletList{
 	font-size: 1.5em;
-	pading:.9em;
-}
-
-.greenComputer{
-	width: 60%;
-}
-
-.blackWithYellow hr{
-	border-color: #CCBA38;
-	width: 70%;
-	float: left;
+	padding:.9em;
 }
 
 
@@ -47,21 +54,39 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: black;
 	color: #00ff00;
 }
+.blackWithGreen hr {
+    border-color: #00ff00;
+}
 .blackWithBlue {
 	background-color: black;
 	color: #38BDCC;
 }
+.blackWithBlue hr {
+    border-color: #38BDCC;
+}
 .blackWithYellow {
 	background-color: black;
 	color: #CCBA38;
-	border-color: #CCBA38;
+}
+.blackWithYellow hr {
+    border-color: #CCBA38;
+}
+.orangeWithBlack {
+	background-color: #FF4939;
+	color: black;
+}
+.orangeWithBlack hr {
+    border-color: black;
 }
 .grey {
 	background-color: #222222;
 	color: #24c0eb;
 }
+.grey hr {
+    border-color: #24c0eb;
+}
 
-.grey ls li {
+.grey ul li {
 	font-size: 2em;
 }
 
