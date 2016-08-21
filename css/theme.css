@@ -92,16 +92,34 @@ a {
 .orangeWithBlack hr {
     border-color: black;
 }
-.grey {
+
+.greyWithGreen {
 	background-color: #222222;
-	color: #24c0eb;
+	color: #00ff00;
 }
-.grey hr {
-    border-color: #24c0eb;
+.greyWithGreen hr {
+    border-color: #00ff00;
 }
 
-.grey ul li {
+.greyWithGreen ul li {
 	font-size: 2em;
+}
+
+.greyWithRed {
+	background-color: #222222;
+	color: #FF4939;
+}
+
+.greyWithRed hr {
+    border-color: #FF4939;
+}
+
+.greyWithRed ul li {
+	font-size: 2em;
+}
+
+.grey {
+	background-color: #222222;
 }
 
 .tan {
